@@ -1,55 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Our Wedding Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #f2f2f2;
-            padding: 20px;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #f2f2f2;
-            padding: 20px;
-        }
-    </style>
+<head> 
+	<h2>Sarah & Jordan Wedding</h2>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our Wedding Website</h1>
-    </header>
-    <main>
-        <h2>Save the Date: June 30, 2023</h2>
-        <p>
-            We are excited to invite you to celebrate our special day with us. Join us for a day filled with love, laughter, and joy as we begin our journey together.
-        </p>
-        <p>
-            Please RSVP by June 15, 2023, to help us plan accordingly.
-        </p>
-        <h3>Event Details</h3>
-        <ul>
-            <li>Date: June 30, 2023</li>
-            <li>Time: 4:00 PM</li>
-            <li>Location: XYZ Venue, City</li>
-        </ul>
-    </main>
-
-    <footer>
-        <p>© 2023 Our Wedding. All rights reserved.</p>
-    </footer>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#our-story">Our Story</a></li>
+				<li><a href="#wedding-details">Wedding Details</a></li>
+				<li><a href="#accommodations">Accommodations</a></li>
+				<li><a href="#registry">Registry</a></li>
+				<li><a href="#rsvp">RSVP</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="banner">
+			<h1>Sarah & Jordan</h1>
+			<h2>Wedding</h2>
+			<p>Save the Date: June 1st, 2023</p>
+		</section>
+		<section id="our-story">
+			<h2>Our Story</h2>
+			<p>Insert your love story here...</p>
+		</section>
+		<section id="wedding-details">
+			<h2>Wedding Details</h2>
+			<p>Insert details about the wedding here...</p>
+		</section>
+		<section id="accommodations">
+			<h2>Accommodations</h2>
+			<p>Insert information about accommodations here...</p>
+		</section>
+		<section id="registry">
+			<h2>Registry</h2>
+			<p>Insert registry information here...</p>
+		</section>
+		<section id="rsvp">
+			<h2>RSVP</h2>
+			<p>Insert RSVP form here...</p>
+		</section>
+		<section id="gallery">
+			<h2>Gallery</h2>
+			<p>Insert photo gallery here...</p>
+		</section>
+	</main>
+	<footer>
+		<p>© 2023 Sarah & Jordan Wedding. All rights reserved.</p>
+	</footer>
 </body>
 </html>
